@@ -1,21 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Primeiro from './components/basics/Primeiro'
-import ComParametro from "./components/basics/ComParametro";
-import Fragmento from './components/basics/Fragmento';
-
-import './index.css'
-
+import App from './App'
 
 ReactDOM.render(
-    <div>
-        <Primeiro />
-        <ComParametro 
-            title="Segundo Componente" 
-            subtitle="Go Go Power Rangers" 
-        />
-        <Fragmento />
-    </div>, 
+    <App />,
     document.getElementById('root')
 )
